@@ -1,2 +1,0 @@
-# ISTASS
-IST Assessment task

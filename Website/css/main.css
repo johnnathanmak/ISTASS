@@ -1,0 +1,157 @@
+ {
+  border: 1px solid rgba(70, 242, 193, 1)
+}
+
+body {
+  background-color: rgba(0, 0, 0, 1)
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  background-color: rgb(69, 31, 109);
+  height: 100%;
+}
+
+.background-video {
+  width: 100%;
+  min-width: 480px;
+  height: auto;
+  z-index: 2
+  position: fixed;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.8)
+}
+
+.dragscroll {
+  height: 300px;
+  min-width: 480px;
+  max-width: 1400px;
+  overflow-x: hidden;
+  overflow-y: visible;
+  cursor: grab;
+  cursor: -o-grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  z-index: 3;
+  position: relative;
+  bottom: 450px;
+  white-space: nowrap;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.planets {
+  height: 195px;
+  width: 195px;
+  border-radius: 50%;
+  margin-right: 100px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 5px rgba(69, 226, 189, 0.2);
+}
+
+.planets:hover {
+    box-shadow: 0 0 0 7px rgba(255,255,255,1);
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.1s;
+}
+
+.dragscroll-hint {
+  position: relative;
+  display: block;
+  width: auto;
+  height: auto;
+  bottom: 515px;
+  margin: auto;
+  z-index: 2;
+}
+
+#mercury {
+  height: 90px;
+  width: 90px;
+  margin-left: 10px;
+}
+
+#venus {
+  height: 115px;
+  width: 115px;
+}
+
+#earth {
+  height: 135px;
+  width: 135px;
+}
+
+#mars {
+  height: 120px;
+  width:120px;
+}
+
+#saturn {
+  height: 160px;
+  width: 310px;
+  margin-right: 100px;
+  margin-top: 10px;
+  border-radius: 33%;
+  box-shadow: none;
+}
+
+#saturn:hover {
+  box-shadow: 0 0 0 7px rgba(255,255,255,1);
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow 0.1s;
+}
+
+#uranus {
+  height: 140px;
+  width: 140px;
+}
+
+#neptune {
+  height: 140px;
+  width: 140px;
+}
+
+#pluto {
+  height: 45px;
+  width: 45px;
+}
+
+.footer {
+  display: block;
+  position: relative;
+  bottom: 387px;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 15px;
+}
+
+p {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.creators {
+  letter-spacing: 2px;
+}
+
+.title {
+  display: block;
+  position: relative;
+  z-index: 100;
+  height: auto;
+  margin: auto;
+  max-width: 1900px;
+  max-height: 1200px;
+  height: auto;
+  bottom: 135%;
+
+
+
+}
